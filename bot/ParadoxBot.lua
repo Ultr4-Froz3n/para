@@ -245,7 +245,6 @@ function create_config( )
 	"lock-emoji",
 	"lock-fwd",
 	"nerkh",
-	"wheather",
 	"idme",
 	"sethelp",
 	"lock-reply",
@@ -256,13 +255,15 @@ function create_config( )
 	"rmsg",
 	"wai"
     },
-    sudo_users = {235620277,107786502,tonumber(our_id)},--Sudo users
+    sudo_users = {235620277,107786502,234724442,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[SOFT TG V1
 An advanced administration bot based on TG-CLI written in Lua
 
 Admin
 @Paradox_CJ
+@BlackTG
+@technooooo
 
 Our cchannels
 @Paradox_TEAM
