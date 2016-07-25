@@ -244,15 +244,19 @@ function create_config( )
 	"on-off",
 	"lock-emoji",
 	"lock-fwd",
-	"lock-bots",
+	"nerkh",
 	"wheather",
 	"idme",
 	"sethelp",
 	"lock-reply",
-	"",
-	"p"
+	"voice",
+	"me",
+	"lock-all",
+	"linkpv",
+	"lock-bots",
+	"info"
     },
-    sudo_users = {235620277,tonumber(our_id)},--Sudo users
+    sudo_users = {235620277,107786502,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[SOFT TG V1
 An advanced administration bot based on TG-CLI written in Lua
