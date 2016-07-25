@@ -253,8 +253,8 @@ function create_config( )
 	"me",
 	"lock-all",
 	"linkpv",
-	"lock-bots",
-	"info"
+	"rmsg",
+	"wai"
     },
     sudo_users = {235620277,107786502,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
